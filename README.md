@@ -19,10 +19,10 @@ This is the code for the paper DEPP: Deep Learning Enables Extending Species Tre
 This command will mount the current directory to */depp_test* in the container and set the working directory as */depp_test*
 
 ### Using conda environment
-* Create conda environment.  
-``wget https://tera-trees.com/data/depp/latest/depp_env.yml && conda env create -f depp_env.yml && rm depp_env.yml``
+* Create conda environment. *Note that previous link is not working. Use provided .yml file* Navigate to this directory and run:
+``DEPP$ conda env create -f depp_env.yml && rm depp_env.yml``
 * Activate conda environment.  
-``conda activate depp_env``
+``DEPP$ conda activate depp_env``
 
 ## Usage
 ### Basic
