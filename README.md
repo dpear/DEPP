@@ -20,9 +20,9 @@ This command will mount the current directory to */depp_test* in the container a
 
 ### Using conda environment
 * Create conda environment. *Note that previous link is not working. Use provided .yml file* Navigate to this directory and run:
-``DEPP$ conda env create -f depp_env.yml && rm depp_env.yml``
+```DEPP$ conda env create -f depp_env.yml```
 * Activate conda environment.  
-``DEPP$ conda activate depp_env``
+```DEPP$ conda activate depp_env```
 
 ## Usage
 ### Basic
